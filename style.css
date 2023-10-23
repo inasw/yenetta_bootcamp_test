@@ -1,0 +1,344 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+html{
+    /* font-size: 62.5%; */
+} 
+
+body{
+    font-family:"Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    background-color: #eb984e;
+}
+
+ /* sign in */
+
+ .content{
+    background-color: #fae5d3;
+    text-align: center;
+    width: 30%;
+    height: 30rem;
+    font-size: 1.7rem;
+    margin: 12rem auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 11px;
+    border: transparent;
+    color:  #45260a;
+ }
+
+ h1{
+    margin-bottom: 3rem;
+ }
+
+.content label{
+    margin-right: 200px;
+}
+
+input{
+    height: 50px;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 10px;
+    padding: 3px 150px 6px 5px;
+    background-color: #fdf2e9;
+    margin: 10px auto;
+}
+
+input[type="submit"] {
+    border-collapse: collapse;
+    border: transparent;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px auto;
+    padding: 5px 50px 5px 50px;
+    transition: 0.5s;
+    background-color: #45260a;
+    color:#fdf2e9 ;
+
+}
+
+input[type="submit"]:hover {
+    color: #555;
+    background-color: #fdf2e9;
+}
+
+.regis{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-collapse: collapse;
+    border: transparent;
+    border-radius: 15px;
+    color: #fdf2e9;
+    margin: 15px auto;
+    padding: 14px 24px;
+    background-color: #45260a;
+    transition:all 0.5s;
+    width: 45%;
+}
+.regis:hover{
+    text-decoration: none;
+    color: #555;
+    background-color: #fdf2e9;
+}
+
+/* registration */
+
+.container {
+    width: 45%;
+    margin: 0 auto;
+    background-color: #f8d8bd;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: 100px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.section h1 {
+    
+    text-align: center;
+    margin-top: 24px;
+}
+
+.form-group-reg {
+     /* margin: 10px 200px 0px 200px;  */
+     padding: 3px 150px 6px 1px; 
+     margin-left: 200px;
+}
+
+input[type="text"],
+input[type="password"] {
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 10px;
+    padding: 3px 200px 6px 3px;
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 0px 5px 310px;
+    padding: 14px 24px;
+    border-collapse: collapse;
+    border: transparent;
+    border-radius: 15px;
+    transition: all 0.5s;
+    background-color: #45260a;
+    color:#fdf2e9;
+    
+}
+
+.btn:hover{
+    text-decoration: none;
+    color: #555;
+    background-color: #fdf2e9;
+}
+
+.returnlogin {
+    text-decoration: none;
+    font-size: 18px;
+    border-collapse: collapse;
+    border: transparent;
+    border-radius: 15px; 
+    color: #e98b38;
+    margin: 15px 0px 0px 220px;
+    padding: 5px 50px 5px 50px;
+    transition: 0.5s;
+}
+
+.returnlogin:hover {
+    background-color: #fdf2e9;
+    color: #45260a;
+}
+
+/* list */
+
+.list{
+    background-color:#eea564;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    padding: 5px 13px 11px 0px;
+    width: 100%;
+    color: white;
+    font-family: "Mitr", sans-serif;
+    margin-top: 0px;
+    bottom: 0;
+    background-color:#a15818;
+}
+.header p {
+    margin-left: 20px;
+    text-align: left;
+}
+.button-logout {
+    position: relative;
+    margin-top: -50px;
+    margin-right: 20px;
+    float: right;
+    text-decoration: none;
+    border: transparent;
+    border-radius: 15px;
+    background-color: #e60000;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    transition: 0.5s;
+}
+.button-logout:hover {
+    background-color: #D9ddd4;
+    color: red;
+}
+
+.headings{
+    line-height: 1.6;
+}
+
+.headings h1{
+    margin: 60px auto;
+    text-align: center;
+}
+
+table th,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 0px 10px 0px;
+   
+}
+table {
+    width: 100%;
+}
+th {
+    color: #cf711f;
+    background-color: #fdf2e9;
+    font-size:20px ;
+}
+tr {
+    background-color: #ffffff;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.modify {
+    text-align: center;
+}
+.delete {
+    text-align: center;
+}
+.modify .bfix {
+    border-radius: 15px;
+    background-color: #ffcc33;
+    color: black;
+    text-decoration: none;
+    padding: 4px 20px 4px 20px;
+    transition: 0.5s;
+}
+.modify .bfix:hover {
+    background-color: #fdb515;
+    color: white;
+}
+.delete .bdelete {
+    border-radius: 15px;
+    background-color: #e60000;
+    text-decoration: none;
+    color: white;
+    padding: 4px 20px 4px 20px;
+    transition: 0.5s;
+}
+.delete .bdelete:hover {
+    background-color: #D9ddd4;
+    color: red;
+}
+.Addlist {
+    margin-right: 100px;
+    padding: 5px 30px 5px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #00A600;
+    transition: 0.5s;
+}
+.Addlist:hover {
+    color: black;
+    background-color: #BBFFBB;
+}
+
+/* fix */
+
+.modifybtn{
+    border-radius: 11px;
+    border: transparent;
+    color: white;
+    padding: 4px 40px 4px 40px;
+    margin: 0px 50px 50px 100px;
+    font-size: 20px;
+    border-collapse: collapse;
+    background-color: #00A600;
+
+    transition: 0.5s;
+}
+.modifybtn:hover{
+    color: black;
+    background-color: #BBFFBB;
+}
+
+
+/* addlist */
+
+.form-group {
+    margin-left: 600px;
+}
+
+.return {
+    border-radius: 15px;
+    background-color: #ffcc33;
+    color: black;
+    text-decoration: none;
+    padding: 4px 40px 4px 40px;
+    margin: 0px 0px 50px 100px;
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+
+.return:hover {
+    background-color: #fdb515;
+    color: white;
+}
+
+[type=text], [type=number] {
+    border-radius: 15px;
+    border: transparent;
+    padding: 7px 200px 7px 5px;
+}
+
+.add {
+    border-radius: 15px;
+    border: transparent;
+    color: white;
+    padding: 4px 40px 4px 40px;
+    margin: 0px 50px 50px 100px;
+    font-size: 20px;
+    border-collapse: collapse;
+    background-color: #00A600;
+    font-family: "Mitr", sans-serif;
+    transition: 0.5s;
+
+}
+
+.add:hover {
+    color: black;
+    background-color: #BBFFBB;
+}
