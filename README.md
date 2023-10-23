@@ -30,7 +30,7 @@ These instructions will help you set up and run the project on your local machin
  2. Click on the databases tab
  3. Create a database called "test_project" and then click on the import tab
 
-###Screenshots
+### Screenshots
 
 ![signin](https://github.com/inasw/yenetta_bootcamp_test/assets/119315999/64ce6cd9-662c-42dd-a24e-038a16e0265d)
 ![register](https://github.com/inasw/yenetta_bootcamp_test/assets/119315999/4dff23dc-a80e-46cf-9f31-140811e0cbc6)
