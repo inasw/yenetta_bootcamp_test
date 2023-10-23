@@ -38,3 +38,6 @@ These instructions will help you set up and run the project on your local machin
 ![addproducts](https://github.com/inasw/yenetta_bootcamp_test/assets/119315999/1c4a2cbf-dc36-479e-a784-abc167761a6c)
 ![updateproducts](https://github.com/inasw/yenetta_bootcamp_test/assets/119315999/347853c2-e008-4e2a-a9c3-8cb8bbc26a98)
  
+### preview
+
+https://magical-mooncake-d9eabf.netlify.app
